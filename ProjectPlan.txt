@@ -1,0 +1,11 @@
+Download data for 50 stoks and follow below steps for each stock individually.
+75 mins interval for 5 years atleast.
+Calculate daily returns
+Calculate Technical indicators (RSI,ATR etc) for various params (3,5,7,10, 15, 20,50 etc etc)
+Find the spots where returs are 10%.
+From buy spots remove spots where returns are -3%
+train Test Split
+Data preprocessing : Standard Scaler)
+Save the test data to test dict and train data to train dict (dict / df)
+
+move to nxt stock and follow the same process and append the results to the created dataframes.
